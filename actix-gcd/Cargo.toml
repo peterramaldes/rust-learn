@@ -1,0 +1,9 @@
+[package]
+name = "actix-gcd"
+version = "0.1.0"
+authors = ["Peter A. Ramaldes <peter.ramaldes@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+actix-web = "1.0.8"
+serde = { version = "1.0", features = ["derive"] }
